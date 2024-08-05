@@ -1,0 +1,21 @@
+.fancy-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .fancy-button:hover {
+    background-color: #2980b9;
+    transform: translateY(-2px);
+  }
+  
+  .fancy-button:active {
+    background-color: #1c6e8c;
+    transform: translateY(0);
+  }
+  

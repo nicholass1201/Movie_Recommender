@@ -1,0 +1,31 @@
+.ai-response {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .fetch-button {
+    background-color: #9b59b6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .fetch-button:hover {
+    background-color: #8e44ad;
+    transform: translateY(-2px);
+  }
+  
+  .fetch-button:active {
+    background-color: #7d3c98;
+    transform: translateY(0);
+  }
+  
+  .response {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
